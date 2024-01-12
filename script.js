@@ -16,7 +16,7 @@ const tl = gsap.timeline({
         trigger: ".card-container",
         start: "top-=100 top",
         end: "center-=450 top",
-        markers: true,
+        markers: false,
         scrub: 1,
     }
 });
